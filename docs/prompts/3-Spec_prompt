@@ -1,0 +1,10 @@
+Go throuhg the ./docs/PRD.md and ./docs/TDD.md files.
+Generate a implementation specification file. 
+save it at .clause/sepcs/app-foundation.md
+the specificaiton file must strictly follow the rules provided in the RPD.md and TDD.md files
+No other file should be altered and no piece of code should be written in any file
+The flow should be as follows:
+int main(int argc, char*argv[])
+user should provide a name as string
+another funciton void validate_input(int argc, char *str) should validate the input.That is the number of input arguments should be valid and the string should not carry any numeric value
+Next void display_message(char *str) should accept the input string and should display it with an appropriate greeting message.
