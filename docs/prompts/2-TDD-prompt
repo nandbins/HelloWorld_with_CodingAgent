@@ -1,0 +1,14 @@
+Act as a Principal Software Engineer. Write a minimalist, bare-minimum Technical Design Document (TDD) for a simple C command-line program and output it in a code block as a valid TDD.md file.
+
+The program details are:
+1. It is a CLI application written in C.
+2. It takes a name as a command-line argument and prints "Hello, [Name]!".
+3. It handles missing arguments by printing a usage message to stderr and exiting with code 1.
+
+Keep the TDD incredibly simple, focusing only on the technical implementation details. Use only these markdown sections:
+- ## System Architecture & Flow
+- ## Component Specifications (Functions & Signatures)
+- ## Error Handling & Exit Codes
+- ## Verification & Testing (Compilation and manual test cases)
+
+Avoid enterprise architecture fluff. Keep it precise, technical, and lightweight.
